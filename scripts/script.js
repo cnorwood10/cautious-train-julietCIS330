@@ -1,3 +1,4 @@
+// Shows console on the webpage
 $(function(){
     $('#console-box').append('<br/>console is ready...');
     
@@ -8,7 +9,7 @@ $(function(){
     
   });
   
-  
+  // Refreshes Page when Clicking on the Reset Button(uxgood.html page)
   function refreshPage() {
     document.getElementById("major").value = "";
     document.getElementById("studentMajor").textContent = "";
@@ -21,7 +22,7 @@ $(function(){
 
   document.getElementById('resetForm').addEventListener("click", refreshPage);
   
-  
+  // Submits Form and Displays the User text.
     function submitForm() {
     const majorInput = document.getElementById("major");
     const major = majorInput.value;
@@ -33,18 +34,15 @@ $(function(){
       document.getElementById("studentMajor").textContent = `Your major is ${major}.`;
       majorInput.setCustomValidity("");
 
+      // Allows program to display text only if the user inputs text in the field
       if (document.getElementById('minor').value != ""){
         document.getElementById("studentMinor").textContent = `Your minor is ${minor}.`;
       }
 
+      // Allows program to display text only if the user inputs text in the field
       if (document.getElementById('concentration').value != ""){
         document.getElementById("studentConcentration").textContent = `Your concentration is ${concentration}.`;
       }
   }
 
   document.getElementById("formSubmit").addEventListener("click", submitForm);
-//   element.addEventListener("click", myFunction);
-
-// function myFunction() {
-//   alert ("Hello World!");
-// }
