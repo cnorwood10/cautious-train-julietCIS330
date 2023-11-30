@@ -33,15 +33,19 @@ $(function(){
 
       document.getElementById("studentMajor").textContent = `Your major is ${major}.`;
       majorInput.setCustomValidity("");
+      minorInput.setCustomValidity("");
+      concInput.setCustomValidity("");
 
       // Allows program to display text only if the user inputs text in the field
       if (document.getElementById('minor').value != ""){
         document.getElementById("studentMinor").textContent = `Your minor is ${minor}.`;
+        
       }
 
       // Allows program to display text only if the user inputs text in the field
       if (document.getElementById('concentration').value != ""){
         document.getElementById("studentConcentration").textContent = `Your concentration is ${concentration}.`;
+        
       }
   }
 
