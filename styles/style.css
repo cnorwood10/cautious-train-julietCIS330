@@ -15,9 +15,11 @@ body{
   }
 
   /* Home page Style */
-  #home{
+  .home{
     text-align: center;
     color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
   }
 
   #footer {
