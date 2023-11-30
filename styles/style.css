@@ -1,0 +1,75 @@
+body{
+    background-color: #1771bb;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23c2b1de' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+     
+  div {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 1px;
+  }
+  .card-title {
+    color: purple;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Home page Style */
+  #home{
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  #footer {
+    color: white;
+  }
+  
+/* UXBad page style */
+#uxbadHeader{
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(255, 197, 197);
+  text-align: center;
+  font-weight: bold;
+}
+#uxbad{
+    color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* UXGood page style */
+.uxGoodHeader{
+color: rgb(142, 249, 154);
+font-family:'Times New Roman', Times, serif;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+}
+
+.uxGood{
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+  .addScreen {
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #console-box{
+    position:relative;
+    height:300px;
+    width:40%;
+    background-color:#000;
+    color: #55ff55;
+    font-family: monospace;
+    padding:6px; 
+    margin: 2% auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    border: 2px solid #161616;
+    font-size: 14px;
+  }

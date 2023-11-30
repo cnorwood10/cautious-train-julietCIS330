@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <!--Author: Colby Norwood -->
+<html lang="en">
+  <head>
+    <title>Colby Norwood's Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+  </head>
+
+<!-- NavBar  -->
+<body class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Colby's Revision Page!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home Page</a>
+        </li> 
+        <li>
+          <a class="nav-link" href="uxbad.html">Bad UX Design</a>
+        </li>
+        <li>
+          <a class="nav-link" href="uxgood.html">Revised UX Design</a>
+        </li>
+        <li>
+          <a class="nav-link" href="https://github.com/cnorwood10/cautious-train-julietCIS330" target="_blank">See my Code</a>
+        </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div id="allContent">
+        <div class="info">
+          <h2 class="uxGoodHeader">Want some revision ideas?</h2>
+          <p class="uxGood">My proposed fix would be to ask the student's their major, minor, and concentration so the database can be filtered. This filter will be unique to major, minor, and concentration because the classes that will be listed are the classes specifically for the department. This will help users register quicker, easier, and allow them to get back to focusing on what is needed: their present classees. <br/>
+          <p class="uxGood">Users can enter their major and/or concentration, and the subjects table will drop down to the classes that are needed to be taken by that major. Students would no longer have to either scroll through the long drop down, or would they have to enter in the subject.</p>
+        </div>
+        <div id="showcase">
+          <div class="mb-3 mt-3">
+            <label for="major" class="form-label">Enter your Major: </label>
+            <input type="text" class="form-control" id="major" placeholder="Enter Major" name="major">
+            <br>
+            <label for="concentration" class="form-label">Enter your Minor: </label>
+            <input type="text" class="form-control" id="minor" placeholder="Enter Minor" name="minor">
+            <br>
+            <label for="concentration" class="form-label">Enter your Concentration: </label>
+            <input type="text" class="form-control" id="concentration" placeholder="Enter Concentration" name="concentration">
+          </div>
+          <button id="formSubmit" class="btn btn-success" >Confirm</button>
+          <button id="resetForm" class="btn btn-danger">
+            Reset Form</button>
+          <br/>
+          <p class="uxGood" id="studentMajor"></p>
+          <p class="uxGood" id="studentMinor"></p>
+          <p class="uxGood" id="studentConcentration"></p>
+          <br/>
+
+
+        <div id="console-box"> 
+        </div> 
+        <p class="uxGood"><br>This design improves because this is the first step that allows the database of the subjects and classes to be filtered. This will allow the user to register for UNA classes faster without having to go to anther page to find out the information for the classes that they want/need to take.</p>
+      </div>
+
+
+      
+<!-- scripts and stuff -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="../scripts/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </body>
+  </html>
